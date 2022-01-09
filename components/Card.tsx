@@ -8,7 +8,7 @@ import eyeIcon from "../images/icon-view.svg";
 export default function Card() {
   return (
     <div className="bg-cardbg flex flex-col border-0 rounded-xl shadow-xl py-6 px-6 mx-2 my-2 ">
-      <div className=" relative h-80 w-80 opacity-cyan bg-cyan rounded-2xl group">
+      <div className=" relative h-80 w-80 opacity-cyan bg-cyan rounded-2xl group cursor-pointer">
         <Image
           src={equilibriumImage}
           layout="fill"
